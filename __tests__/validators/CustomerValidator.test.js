@@ -5,7 +5,7 @@ const { AddressType } = require("../../src/entities/AddressType");
 const Customer = require("../../src/entities/Customer");
 const ArgumentError = require("../../src/errors/ArgumentError");
 const AddressValidator = require("../../src/validators/AddressValidator");
-const CustomerValidator = require("../../src/validators/customerValidator");
+const CustomerValidator = require("../../src/validators/CustomerValidator");
 const { getValidAddress } = require("./AddressValidator.test");
 
 describe("Validating individual properties", () => {
